@@ -3,35 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
+
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/
-    3.0.1/modern-normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,700;1,
-700&family=Roboto:wght@400;500;700&display=swap"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>Web Studio</title>
   </head>
   <body>
     <!-- #region header -->
     <header>
       <nav>
-        <a class="logo-dark" href="./index.html"
-          ><span class="logo-accent">Web</span>Studio</a
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-dark">Studio</span></a
         >
         <ul>
-          <li><a class="nav-link" href="#">Studio</a></li>
-          <li><a class="nav-link" href="#">Portfolio</a></li>
-          <li><a class="nav-link" href="#">Contacts</a></li>
+          <li><a class="nav-link" href="./index.html">Studio</a></li>
+          <li><a class="nav-link" href="">Portfolio</a></li>
+          <li><a class="nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="header-address">
         <ul>
           <li>
             <a class="contact-link" href="mailto:info@devstudio.com"
@@ -93,7 +95,7 @@
       <section class="team-section">
         <h2 class="section-title">Our Team</h2>
         <ul>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/Team/Mark_Guerrero.jpg"
               alt="Portrait photo of Mark Guerrero"
@@ -103,7 +105,7 @@
             <h3 class="section-item">Mark Guerrero</h3>
             <p class="section-description">Product Designer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/Team/Tom_Ford.jpg"
               alt="Portrait photo of Tom Ford"
@@ -113,7 +115,7 @@
             <h3 class="section-item">Tom Ford</h3>
             <p class="section-description">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/Team/Camila_Garcia.jpg"
               alt="Portrait photo of Camila Garcia"
@@ -123,7 +125,7 @@
             <h3 class="section-item">Camila Garcia</h3>
             <p class="section-description">Marketing</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/Team/Daniel_Wilson.jpg"
               alt="Portrait photo of Daniel Wilson"
@@ -131,7 +133,7 @@
               height="260"
             />
             <h3 class="section-item">Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="section-description">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -206,8 +208,8 @@
     </main>
     <!-- #region Footer -->
     <footer class="footer">
-      <a class="logo-light" href="./index.html"
-        ><span class="logo-accent">Web</span>Studio</a
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-white">Studio</span></a
       >
       <p class="section-description-footer">
         Increase the flow of customers and sales for your business with digital
